@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  font-family: Poppins;
+  position: relative;
+  padding: 0%;
+  min-height: 200vh;
+  color: aliceblue;
+  box-sizing: border-box;
+  background: linear-gradient(rgb(17, 24, 82), rgb(53, 57, 107), rgb(0, 0, 58));
+  user-select: none;
+}
+section {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./image/img2.jpg");
+  background-attachment: fixed;
+}
+.banner #bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #ffffff url("./image/bat-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  mix-blend-mode: screen;
+}
+
+.container {
+  position: absolute;
+  margin-top: 200vh;
+  background-color: #000b35;
+  padding: 100px;
+  min-height: 100vh;
+  text-align: left;
+  background-attachment: fixed;
+  z-index: auto;
+}
+.container h2 {
+  font-size: 2.5rem;
+}
+.title {
+  position: relative;
+  top: 250px;
+  z-index: 1;
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+}
+
+.cont {
+  background-color: #ffffff;
+  height: 200vh;
+  position: absolute;
+  margin-top: 300vh;
+  color: #000b35;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
